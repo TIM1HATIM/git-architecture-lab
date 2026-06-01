@@ -1,0 +1,9 @@
+# Ignore all application runtime logs
+*.log
+
+# Ignore temporary configuration runtime environments
+*.env
+!production.env
+
+# Ignore OS specific cache files
+.DS_Store
